@@ -356,6 +356,14 @@ footer {
     color: #94a3b8;
     margin-top: 48px;
 }
+.hero-icon img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #6c63ff;
+    box-shadow: 0 0 40px rgba(108, 99, 255, 0.3);
+}
 @media (max-width: 768px) {
     .hero-text h1 { font-size: 2rem; }
     .hero-icon i { font-size: 7rem; }
